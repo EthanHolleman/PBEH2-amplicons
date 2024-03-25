@@ -1,96 +1,96 @@
-Sample_ID	Experiment	Flow cell	Plasmid	Total plasmids in sample	Linear	Nick	Txn	RnaseH	Co-SSB	Post-SSB	Co-RPA	Linearization post txn	Deprotienize post Co-RPA	Transcription_Date	T4_ligase_repair_date	PCR1_date	PCR cleaup method	Fwd_primer	Rev_primer
-PBEH2-0	1	A	pFC9ΔNt.BspQI-13	1	BsaI-v2	-	-	-	+	-	-	-	-	8/25/23	8/28/23	11/8/23	Gel extraction and electro-elution	PacBioFwdV2-0	PacBioRevV2-24-P9
-PBEH2-1	1	A	pFC9ΔNt.BspQI-13	1	BsaI-v2	-	+	-	-	-	-	-	-	8/25/23	8/28/23	11/8/23	Gel extraction and electro-elution	PacBioFwdV2-1	PacBioRevV2-24-P9
-PBEH2-2	1	A	pFC9ΔNt.BspQI-13	1	BsaI-v2	-	+	+	-	-	-	-	-	8/25/23	8/28/23	11/8/23	Gel extraction and electro-elution	PacBioFwdV2-2	PacBioRevV2-24-P9
-PBEH2-3	1	A	pFC9ΔNt.BspQI-13	1	BsaI-v2	Nt.BspQI	-	-	+	-	-	-	-	8/25/23	8/28/23	11/8/23	Gel extraction and electro-elution	PacBioFwdV2-3	PacBioRevV2-24-P9
-PBEH2-4	1	A	pFC9ΔNt.BspQI-13	1	BsaI-v2	Nt.BspQI	+	-	-	-	-	-	-	8/25/23	8/28/23	11/8/23	Gel extraction and electro-elution	PacBioFwdV2-4	PacBioRevV2-24-P9
-PBEH2-5	1	A	pFC9ΔNt.BspQI-13	1	BsaI-v2	Nt.BspQI	+	+	-	-	-	-	-	8/25/23	8/28/23	11/8/23	Gel extraction and electro-elution	PacBioFwdV2-5	PacBioRevV2-24-P9
-PBEH2-6	1	A	pFC9ΔNt.BspQI-11	1	BsaI-v2	-	-	-	-	-	-	-	-	8/25/23	8/28/23	11/17/23	Gel extraction and column cleanup	PacBioFwdV2-0	PacBioRevV2-25-P9
-PBEH2-7	1	A	pFC9ΔNt.BspQI-11	1	BsaI-v2	-	-	-	+	-	-	-	-	8/25/23	8/28/23	11/17/23	Gel extraction and column cleanup	PacBioFwdV2-1	PacBioRevV2-25-P9
-PBEH2-8	1	A	pFC9ΔNt.BspQI-11	1	BsaI-v2	-	+	-	-	-	-	-	-	8/25/23	8/28/23	11/17/23	Gel extraction and column cleanup	PacBioFwdV2-2	PacBioRevV2-25-P9
-PBEH2-9	1	A	pFC9ΔNt.BspQI-11	1	BsaI-v2	Nt.BspQI	-	-	+	-	-	-	-	8/25/23	8/28/23	11/17/23	Gel extraction and column cleanup	PacBioFwdV2-3	PacBioRevV2-25-P9
-PBEH2-10	1	A	pFC9ΔNt.BspQI-11	1	BsaI-v2	Nt.BspQI	+	-	-	-	-	-	-	8/25/23	8/28/23	11/17/23	Gel extraction and column cleanup	PacBioFwdV2-4	PacBioRevV2-25-P9
-PBEH2-11	1	A	pFC9ΔNt.BspQI-11	1	BsaI-v2	Nt.BspQI	+	+	-	-	-	-	-	8/25/23	8/28/23	11/8/23	Gel extraction and electro-elution	PacBioFwdV2-5	PacBioRevV2-25-P9
-PBEH2-12	1	A	pFC9ΔNt.BspQI-8	1	BsaI-v2	-	-	-	+	-	-	-	-	8/25/23	8/28/23	11/8/23	Gel extraction and electro-elution	PacBioFwdV2-0	PacBioRevV2-26-P9
-PBEH2-13	1	A	pFC9ΔNt.BspQI-8	1	BsaI-v2	-	+	-	-	-	-	-	-	8/25/23	8/28/23	11/8/23	Gel extraction and electro-elution	PacBioFwdV2-1	PacBioRevV2-26-P9
-PBEH2-14	1	A	pFC9ΔNt.BspQI-8	1	BsaI-v2	-	+	+	-	-	-	-	-	8/25/23	8/28/23	11/8/23	Gel extraction and electro-elution	PacBioFwdV2-2	PacBioRevV2-26-P9
-PBEH2-15	1	A	pFC9ΔNt.BspQI-8	1	BsaI-v2	Nt.BspQI	-	-	+	-	-	-	-	8/25/23	8/28/23	11/8/23	Gel extraction and electro-elution	PacBioFwdV2-3	PacBioRevV2-26-P9
-PBEH2-16	1	A	pFC9ΔNt.BspQI-8	1	BsaI-v2	Nt.BspQI	+	-	-	-	-	-	-	8/25/23	8/28/23	11/8/23	Gel extraction and electro-elution	PacBioFwdV2-4	PacBioRevV2-26-P9
-PBEH2-17	1	A	pFC9ΔNt.BspQI-8	1	BsaI-v2	Nt.BspQI	+	+	-	-	-	-	-	8/25/23	8/28/23	11/8/23	Gel extraction and electro-elution	PacBioFwdV2-5	PacBioRevV2-26-P9
-PBEH2-18	2	B	pFC9ΔNt.BspQI-13	1	BsaI-v2	Nt.BspQI	-	-	+	-	-	-	-		11/7/23	11/8/23	Gel extraction and electro-elution	PacBioFwdV2-6	PacBioRevV2-24-P9
-PBEH2-19	2	B	pFC9ΔNt.BspQI-13	1	BsaI-v2	Nt.BspQI	+	-	+	-	-	-	-		11/7/23	11/8/23	Gel extraction and electro-elution	PacBioFwdV2-7	PacBioRevV2-24-P9
-PBEH2-20	2	B	pFC9ΔNt.BspQI-13	1	BsaI-v2	Nt.BspQI	+	-	-	+	-	-	-		11/7/23	11/8/23	Gel extraction and electro-elution	PacBioFwdV2-8	PacBioRevV2-24-P9
-PBEH2-21	2	B	pFC9ΔNt.BspQI-13	1	BsaI-v2	Nt.BspQI	+	+	+	-	-	-	-		11/7/23	11/8/23	Gel extraction and electro-elution	PacBioFwdV2-9	PacBioRevV2-24-P9
-PBEH2-22	2	B	pFC9ΔNt.BspQI-11	1	BsaI-v2	Nt.BspQI	-	-	+	-	-	-	-			11/17/23	Gel Extraction and column cleanup	PacBioFwdV2-6	PacBioRevV2-25-P9
-PBEH2-23	2	B	pFC9ΔNt.BspQI-11	1	BsaI-v2	Nt.BspQI	+	-	+	-	-	-	-			11/17/23	Gel Extraction and column cleanup	PacBioFwdV2-7	PacBioRevV2-25-P9
-PBEH2-24	2	B	pFC9ΔNt.BspQI-11	1	BsaI-v2	Nt.BspQI	+	-	-	+	-	-	-			11/17/23	Gel Extraction and column cleanup	PacBioFwdV2-8	PacBioRevV2-25-P9
-PBEH2-25	2	B	pFC9ΔNt.BspQI-11	1	BsaI-v2	Nt.BspQI	+	+	+	-	-	-	-			11/17/23	Gel Extraction and column cleanup	PacBioFwdV2-9	PacBioRevV2-25-P9
-PBEH2-26	2	B	pFC9ΔNt.BspQI-8	1	BsaI-v2	Nt.BspQI	-	-	+	-	-	-	-			11/17/23	Gel Extraction and column cleanup	PacBioFwdV2-6	PacBioRevV2-26-P9
-PBEH2-27	2	B	pFC9ΔNt.BspQI-8	1	BsaI-v2	Nt.BspQI	+	-	+	-	-	-	-			11/17/23	Gel Extraction and column cleanup	PacBioFwdV2-7	PacBioRevV2-26-P9
-PBEH2-28	2	B	pFC9ΔNt.BspQI-8	1	BsaI-v2	Nt.BspQI	+	-	-	+	-	-	-			11/17/23	Gel Extraction and column cleanup	PacBioFwdV2-8	PacBioRevV2-26-P9
-PBEH2-29	2	B	pFC9ΔNt.BspQI-8	1	BsaI-v2	Nt.BspQI	+	+	+	-	-	-	-			11/17/23	Gel Extraction and column cleanup	PacBioFwdV2-9	PacBioRevV2-26-P9
-PBEH2-30	3	B	VR20F Mix	9	-	-	-	-	-	-	-	-	-		11/7/23	11/8/23	Gel extraction and electro-elution	PacBioFwdV2-4	PacBioRevV2-0
-PBEH2-31	3	B	VR20F Mix	9	-	-	+	-	-	-	-	-	-		11/7/23	11/8/23	Gel extraction and electro-elution	PacBioFwdV2-5	PacBioRevV2-0
-PBEH2-32	3	B	VR20F Mix	9	-	-	+	+	-	-	-	-	-		11/7/23	11/8/23	Gel extraction and electro-elution	PacBioFwdV2-0	PacBioRevV2-0
-PBEH2-33	3	B	VR20F Mix	9	PsiI-v2	-	-	-	-	-	-	-	-		11/7/23	11/9/23	Gel extraction and electro-elution	PacBioFwdV2-1	PacBioRevV2-18-AplI
-PBEH2-34	3	B	VR20F Mix	9	PsiI-v2	-	+	-	-	-	-	-	-		11/7/23	11/9/23	Gel extraction and electro-elution	PacBioFwdV2-2	PacBioRevV2-18-AplI
-PBEH2-35	3	B	VR20F Mix	9	PsiI-v2	-	+	+	-	-	-	-	-		11/7/23	11/9/23	Gel extraction and electro-elution	PacBioFwdV2-3	PacBioRevV2-18-AplI
-PBEH2-36	4	A	VR10, VR20 and pFC9 mix	3	ApaLI	-	-	-	-	-	-	-	-		11/7/23	11/8/23	Gel extraction and electro-elution	PacBioFwdV2-4	PacBioRevV2-15-AplI
-PBEH2-37	4	A	VR10, VR20 and pFC9 mix	3	ApaLI	-	+	-	-	-	-	-	-		11/7/23	11/9/23	Gel extraction and electro-elution	PacBioFwdV2-5	PacBioRevV2-15-AplI
-PBEH2-38	4	A	VR10, VR20 and pFC9 mix	3	ApaLI	-	+	+	-	-	-	-	-		11/7/23	11/9/23	Gel extraction and electro-elution	PacBioFwdV2-6	PacBioRevV2-15-AplI
-PBEH2-39	4	A	VR10, VR20 and pFC9 mix	3	ApaLI	-	-	-	-	-	+	-	-		11/7/23	11/9/23	Gel extraction and electro-elution	PacBioFwdV2-7	PacBioRevV2-15-AplI
-PBEH2-40	4	A	VR10, VR20 and pFC9 mix	3	ApaLI	-	+	-	-	-	+	-	-		11/7/23	11/9/23	Gel extraction and electro-elution	PacBioFwdV2-8	PacBioRevV2-15-AplI
-PBEH2-41	4	A	VR10, VR20 and pFC9 mix	3	ApaLI	-	+	+	-	-	+	-	-		11/7/23	11/9/23	Gel extraction and electro-elution	PacBioFwdV2-9	PacBioRevV2-15-AplI
-PBEH2-42	4	A	VR10, VR20 and pFC9 mix	3	ApaLI	-	-	-	-	-	+	-	+		11/7/23	11/17/23	Gel Extraction and column cleanup	PacBioFwdV2-6	PacBioRevV2-16-AplI
-PBEH2-43	4	A	VR10, VR20 and pFC9 mix	3	ApaLI	-	+	-	-	-	+	-	+		11/7/23	11/17/23	Gel Extraction and column cleanup	PacBioFwdV2-7	PacBioRevV2-16-AplI
-PBEH2-44	4	A	VR10, VR20 and pFC9 mix	3	ApaLI	-	+	+	-	-	+	-	+		11/7/23	11/17/23	Gel Extraction and column cleanup	PacBioFwdV2-8	PacBioRevV2-16-AplI
-PBEH2-45	5	A	T7init VR-10	1	-	-	-	-	+	-	-	-	-	9/18/23	11/7/23	11/13/23	Gel extraction and electro-elution	PacBioFwdV2-9	PacBioRevV2-2
-PBEH2-46	5	A	T7init VR-10	1	-	-	+	-	+	-	-	-	-	9/18/23	11/7/23	11/8/23	Gel extraction and electro-elution	PacBioFwdV2-6	PacBioRevV2-3
-PBEH2-47	5	A	T7init VR-10	1	-	-	+	-	-	+	-	-	-	9/18/23	11/7/23	11/8/23	Gel extraction and electro-elution	PacBioFwdV2-7	PacBioRevV2-3
-PBEH2-48	5	A	T7init VR-10	1	-	-	+	+	+	-	-	-	-	9/18/23	11/7/23	11/8/23	Gel extraction and electro-elution	PacBioFwdV2-8	PacBioRevV2-3
-PBEH2-49	5	A	T7init VR-20	1	-	-	-	-	+	-	-	-	-	9/18/23	11/7/23	11/8/23	Gel extraction and electro-elution	PacBioFwdV2-9	PacBioRevV2-3
-PBEH2-50	5	A	T7init VR-20	1	-	-	+	-	+	-	-	-	-	9/18/23	11/7/23	11/8/23	Gel extraction and electro-elution	PacBioFwdV2-1	PacBioRevV2-4
-PBEH2-51	5	A	T7init VR-20	1	-	-	+	-	-	+	-	-	-	9/18/23	11/7/23	11/8/23	Gel extraction and electro-elution	PacBioFwdV2-2	PacBioRevV2-4
-PBEH2-52	5	A	T7init VR-20	1	-	-	+	+	+	-	-	-	-	9/18/23	11/7/23	11/8/23	Gel extraction and electro-elution	PacBioFwdV2-3	PacBioRevV2-4
-PBEH2-53	5	A	pFC9	1	-	-	-	-	+	-	-	-	-	9/18/23	11/7/23	11/8/23	Gel extraction and electro-elution	PacBioFwdV2-6	PacBioRevV2-27-P9
-PBEH2-54	5	A	pFC9	1	-	-	+	-	+	-	-	-	-	9/18/23	11/7/23	11/8/23	Gel extraction and electro-elution	PacBioFwdV2-7	PacBioRevV2-27-P9
-PBEH2-55	5	A	pFC9	1	-	-	+	-	-	+	-	-	-	9/18/23	11/7/23	11/8/23	Gel extraction and electro-elution	PacBioFwdV2-8	PacBioRevV2-27-P9
-PBEH2-56	5	A	pFC9	1	-	-	+	+	+	-	-	-	-	9/18/23	11/7/23	11/8/23	Gel extraction and electro-elution	PacBioFwdV2-2	PacBioRevV2-27-P9
-PBEH2-57	5	A	pFC53	1	-	-	-	-	+	-	-	-	-	9/18/23	11/7/23	11/8/23	Gel extraction and electro-elution	PacBioFwdV2-3	PacBioRevV2-27-P9
-PBEH2-58	5	A	pFC53	1	-	-	+	-	+	-	-	-	-	9/18/23	11/7/23	11/8/23	Gel extraction and electro-elution	PacBioFwdV2-4	PacBioRevV2-27-P9
-PBEH2-59	5	A	pFC53	1	-	-	+	-	-	+	-	-	-	9/18/23	11/7/23	11/8/23	Gel extraction and electro-elution	PacBioFwdV2-5	PacBioRevV2-27-P9
-PBEH2-60	5	A	pFC53	1	-	-	+	+	+	-	-	-	-	9/18/23	11/7/23	11/8/23	Gel extraction and electro-elution	PacBioFwdV2-0	PacBioRevV2-27-P9
-PBEH2-61	6	A	T3termsh VRmix	31	-	-	-	-	-	-	-	-	-	9/21/23	11/7/23	11/13/23	Gel extraction and electro-elution	PacBioFwdV2-1	PacBioRevV2-2
-PBEH2-62	6	A	T3termsh VRmix	31	-	-	+	-	-	-	-	-	-	9/21/23	11/7/23	11/13/23	Gel extraction and electro-elution	PacBioFwdV2-2	PacBioRevV2-2
-PBEH2-63	6	A	T3termsh VRmix	31	-	-	+	+	-	-	-	-	-	9/21/23	11/7/23	11/13/23	Gel extraction and electro-elution	PacBioFwdV2-3	PacBioRevV2-2
-PBEH2-64	6	A	T3termsh VRmix	31	ScaI	-	-	-	-	-	-	-	-	9/21/23	11/7/23	11/13/23	Gel extraction and electro-elution	PacBioFwdV2-4	PacBioRevV2-2
-PBEH2-65	6	A	T3termsh VRmix	31	ScaI	-	+	-	-	-	-	-	-	9/21/23	11/7/23	11/13/23	Gel extraction and electro-elution	PacBioFwdV2-5	PacBioRevV2-2
-PBEH2-66	6	A	T3termsh VRmix	31	ScaI	-	+	+	-	-	-	-	-	9/21/23	11/7/23	11/13/23	Gel extraction and electro-elution	PacBioFwdV2-6	PacBioRevV2-0
-PBEH2-67	7	B	pFC8T1T2init VRmix	31	-	-	-	-	-	-	-	-	-	11/3/23	11/7/23	11/13/23	Gel extraction and electro-elution	PacBioFwdV2-7	PacBioRevV2-5
-PBEH2-68	7	B	pFC8T1T2init VRmix	31	-	-	+	-	-	-	-	-	-	11/3/23	11/7/23	11/13/23	Gel extraction and electro-elution	PacBioFwdV2-8	PacBioRevV2-5
-PBEH2-69	7	B	pFC8T1T2init VRmix	31	-	-	+	+	-	-	-	-	-	11/3/23	11/7/23	11/13/23	Gel extraction and electro-elution	PacBioFwdV2-9	PacBioRevV2-5
-PBEH2-70	7	B	pFC8T1T2init VRmix	31	-	-	-	-	+	-	-	-	-	11/3/23	11/7/23	11/13/23	Gel extraction and electro-elution	PacBioFwdV2-0	PacBioRevV2-5
-PBEH2-71	7	B	pFC8T1T2init VRmix	31	-	-	+	-	+	-	-	-	-	11/3/23	11/7/23	11/13/23	Gel extraction and electro-elution	PacBioFwdV2-1	PacBioRevV2-5
-PBEH2-72	7	B	pFC8T1T2init VRmix	31	-	-	+	+	+	-	-	-	-	11/3/23	11/7/23	11/13/23	Gel extraction and electro-elution	PacBioFwdV2-2	PacBioRevV2-5
-PBEH2-73	8	A	pFC9	1	-	-	+	-	-	-	-	-	-	12/7/23	12/7/23	12/8/23	Gel Extraction and column cleanup	PacBioFwd-SSB-19	PacBioRevV2-24
-PBEH2-74	8	A	pFC9	1	-	-	+	+	-	-	-	-	-	12/7/23	12/7/23	12/8/23	Gel Extraction and column cleanup	PacBioFwd-SSB-19	PacBioRevV2-25
-PBEH2-75	8	A	pFC9	1	HindIII	-	+	-	-	-	-	+	-	12/7/23	12/7/23	12/8/23	Gel Extraction and column cleanup	PacBioFwd-SSB-19	PacBioRevV2-26
-PBEH2-76	8	A	pFC9	1	HindIII	-	+	+	-	-	-	+	-	12/7/23	12/7/23	12/8/23	Gel Extraction and column cleanup	PacBioFwd-SSB-19	PacBioRevV2-27
-PBEH2-77	8	A	pFC9	1	-	-	+	-	+	-	-	-	-	12/7/23	12/7/23	12/8/23	Gel Extraction and column cleanup	PacBioFwd-SSB-18	PacBioRevV2-24
-PBEH2-78	8	A	pFC9	1	-	-	+	+	+	-	-	-	-	12/7/23	12/7/23	12/8/23	Gel Extraction and column cleanup	PacBioFwd-SSB-18	PacBioRevV2-25
-PBEH2-79	8	A	pFC9	1	HindIII	-	+	-	+	-	-	+	-	12/7/23	12/7/23	12/8/23	Gel Extraction and column cleanup	PacBioFwd-SSB-18	PacBioRevV2-26
-PBEH2-80	8	A	pFC9	1	HindIII	-	+	+	+	-	-	+	-	12/7/23	12/7/23	12/8/23	Gel Extraction and column cleanup	PacBioFwd-SSB-18	PacBioRevV2-27
-PBEH2-81	9	B	pFC8T1T2	1	BsaI-v2	sgRNA8	+	-	-	-	-	-	-	1/7/24	1/7/24	1/9/24	Gel Extraction and column cleanup	PacBioFwdV2-0	PacBioRevV2-1
-PBEH2-82	9	B	pFC8T1T2	1	BsaI-v2	sgRNA8	+	+	-	-	-	-	-	1/7/24	1/7/24	1/9/24	Gel Extraction and column cleanup	PacBioFwdV2-0	PacBioRevV2-2
-PBEH2-83	9	B	pFC8T1T2	1	BsaI-v2	sgRNA11	+	-	-	-	-	-	-	1/7/24	1/7/24	1/9/24	Gel Extraction and column cleanup	PacBioFwdV2-0	PacBioRevV2-3
-PBEH2-84	9	B	pFC8T1T2	1	BsaI-v2	sgRNA11	+	+	-	-	-	-	-	1/7/24	1/7/24	1/9/24	Gel Extraction and column cleanup	PacBioFwdV2-0	PacBioRevV2-4
-PBEH2-85	9	B	pFC8T1T2	1	BsaI-v2	-	+	-	-	-	-	-	-	1/7/24	1/7/24	1/9/24	Gel Extraction and column cleanup	PacBioFwdV2-1	PacBioRevV2-0
-PBEH2-86	9	B	pFC8T1T2	1	BsaI-v2	-	+	+	-	-	-	-	-	1/7/24	1/7/24	1/9/24	Gel Extraction and column cleanup	PacBioFwdV2-1	PacBioRevV2-1
-PBEH2-87	10	A	VRv2 Mix	7	-	-	+	-	-	-	-	-	-	1/10/24	1/10/24	1/11/24	Gel Extraction and column cleanup	PacBioFwdV2-3	PacBioRevV2-0
-PBEH2-88	10	A	VRv2 Mix	7	-	-	+	+	-	-	-	-	-	1/10/24	1/10/24	1/11/24	Gel Extraction and column cleanup	PacBioFwdV2-3	PacBioRevV2-1
-PBEH2-89	10	A	VRv2 Mix	7	BsaI-v2	-	+	-	-	-	-	-	-	1/10/24	1/10/24	1/11/24	Gel Extraction and column cleanup	PacBioFwdV2-3	PacBioRevV2-3
-PBEH2-90	10	A	VRv2 Mix	7	BsaI-v2	-	+	+	-	-	-	-	-	1/10/24	1/10/24	1/11/24	Gel Extraction and column cleanup	PacBioFwdV2-3	PacBioRevV2-5
-PBEH2-91	11	A	VR Mix	31	-	-	-	-	-	-	-	-	-	2/21/24	2/22/24			PacBioFwdV2-5	PacBioRevV2-1
-PBEH2-92	11	A	VR Mix	31	-	-	-	+	-	-	-	-	-	2/21/24	2/22/24			PacBioFwdV2-9	PacBioRevV2-4
-PBEH2-93	12	B	VR Mix	31	PsiI-v2	-	-	-	-	-	-	-	-	2/21/24	2/22/24			PacBioFwdV2-7	PacBioRevV2-0
-PBEH2-94	12	B	VR Mix	31	PsiI-v2	-	-	+	-	-	-	-	-	2/21/24	2/22/24			PacBioFwdV2-8	PacBioRevV2-4
+Sample_ID	Experiment	Flow cell	Plasmid	Plasmid Loc	Total plasmids in sample	Linear	Nick	Txn	RnaseH	Co-SSB	Post-SSB	Co-RPA	Linearization post txn	Deprotienize post Co-RPA
+PBEH2-0	1	A	pFC9ΔNt.BspQI-13	pFC9ΔNt.BspQI-13.gb	1	BsaI-v2	-	-	-	+	-	-	-	-
+PBEH2-1	1	A	pFC9ΔNt.BspQI-13	pFC9ΔNt.BspQI-13.gb	1	BsaI-v2	-	+	-	-	-	-	-	-
+PBEH2-2	1	A	pFC9ΔNt.BspQI-13	pFC9ΔNt.BspQI-13.gb	1	BsaI-v2	-	+	+	-	-	-	-	-
+PBEH2-3	1	A	pFC9ΔNt.BspQI-13	pFC9ΔNt.BspQI-13.gb	1	BsaI-v2	Nt.BspQI	-	-	+	-	-	-	-
+PBEH2-4	1	A	pFC9ΔNt.BspQI-13	pFC9ΔNt.BspQI-13.gb	1	BsaI-v2	Nt.BspQI	+	-	-	-	-	-	-
+PBEH2-5	1	A	pFC9ΔNt.BspQI-13	pFC9ΔNt.BspQI-13.gb	1	BsaI-v2	Nt.BspQI	+	+	-	-	-	-	-
+PBEH2-6	1	A	pFC9ΔNt.BspQI-11	pFC9ΔNt.BspQI-11.gb	1	BsaI-v2	-	-	-	-	-	-	-	-
+PBEH2-7	1	A	pFC9ΔNt.BspQI-11	pFC9ΔNt.BspQI-11.gb	1	BsaI-v2	-	-	-	+	-	-	-	-
+PBEH2-8	1	A	pFC9ΔNt.BspQI-11	pFC9ΔNt.BspQI-11.gb	1	BsaI-v2	-	+	-	-	-	-	-	-
+PBEH2-9	1	A	pFC9ΔNt.BspQI-11	pFC9ΔNt.BspQI-11.gb	1	BsaI-v2	Nt.BspQI	-	-	+	-	-	-	-
+PBEH2-10	1	A	pFC9ΔNt.BspQI-11	pFC9ΔNt.BspQI-11.gb	1	BsaI-v2	Nt.BspQI	+	-	-	-	-	-	-
+PBEH2-11	1	A	pFC9ΔNt.BspQI-11	pFC9ΔNt.BspQI-11.gb	1	BsaI-v2	Nt.BspQI	+	+	-	-	-	-	-
+PBEH2-12	1	A	pFC9ΔNt.BspQI-8	pFC9ΔNt.BspQI-8.gb	1	BsaI-v2	-	-	-	+	-	-	-	-
+PBEH2-13	1	A	pFC9ΔNt.BspQI-8	pFC9ΔNt.BspQI-8.gb	1	BsaI-v2	-	+	-	-	-	-	-	-
+PBEH2-14	1	A	pFC9ΔNt.BspQI-8	pFC9ΔNt.BspQI-8.gb	1	BsaI-v2	-	+	+	-	-	-	-	-
+PBEH2-15	1	A	pFC9ΔNt.BspQI-8	pFC9ΔNt.BspQI-8.gb	1	BsaI-v2	Nt.BspQI	-	-	+	-	-	-	-
+PBEH2-16	1	A	pFC9ΔNt.BspQI-8	pFC9ΔNt.BspQI-8.gb	1	BsaI-v2	Nt.BspQI	+	-	-	-	-	-	-
+PBEH2-17	1	A	pFC9ΔNt.BspQI-8	pFC9ΔNt.BspQI-8.gb	1	BsaI-v2	Nt.BspQI	+	+	-	-	-	-	-
+PBEH2-18	2	B	pFC9ΔNt.BspQI-13	pFC9ΔNt.BspQI-13.gb	1	BsaI-v2	Nt.BspQI	-	-	+	-	-	-	-
+PBEH2-19	2	B	pFC9ΔNt.BspQI-13	pFC9ΔNt.BspQI-13.gb	1	BsaI-v2	Nt.BspQI	+	-	+	-	-	-	-
+PBEH2-20	2	B	pFC9ΔNt.BspQI-13	pFC9ΔNt.BspQI-13.gb	1	BsaI-v2	Nt.BspQI	+	-	-	+	-	-	-
+PBEH2-21	2	B	pFC9ΔNt.BspQI-13	pFC9ΔNt.BspQI-13.gb	1	BsaI-v2	Nt.BspQI	+	+	+	-	-	-	-
+PBEH2-22	2	B	pFC9ΔNt.BspQI-11	pFC9ΔNt.BspQI-11.gb	1	BsaI-v2	Nt.BspQI	-	-	+	-	-	-	-
+PBEH2-23	2	B	pFC9ΔNt.BspQI-11	pFC9ΔNt.BspQI-11.gb	1	BsaI-v2	Nt.BspQI	+	-	+	-	-	-	-
+PBEH2-24	2	B	pFC9ΔNt.BspQI-11	pFC9ΔNt.BspQI-11.gb	1	BsaI-v2	Nt.BspQI	+	-	-	+	-	-	-
+PBEH2-25	2	B	pFC9ΔNt.BspQI-11	pFC9ΔNt.BspQI-11.gb	1	BsaI-v2	Nt.BspQI	+	+	+	-	-	-	-
+PBEH2-26	2	B	pFC9ΔNt.BspQI-8	pFC9ΔNt.BspQI-8.gb	1	BsaI-v2	Nt.BspQI	-	-	+	-	-	-	-
+PBEH2-27	2	B	pFC9ΔNt.BspQI-8	pFC9ΔNt.BspQI-8.gb	1	BsaI-v2	Nt.BspQI	+	-	+	-	-	-	-
+PBEH2-28	2	B	pFC9ΔNt.BspQI-8	pFC9ΔNt.BspQI-8.gb	1	BsaI-v2	Nt.BspQI	+	-	-	+	-	-	-
+PBEH2-29	2	B	pFC9ΔNt.BspQI-8	pFC9ΔNt.BspQI-8.gb	1	BsaI-v2	Nt.BspQI	+	+	+	-	-	-	-
+PBEH2-30	3	B	VR20F Mix	VR20	9	-	-	-	-	-	-	-	-	-
+PBEH2-31	3	B	VR20F Mix	VR20	9	-	-	+	-	-	-	-	-	-
+PBEH2-32	3	B	VR20F Mix	VR20	9	-	-	+	+	-	-	-	-	-
+PBEH2-33	3	B	VR20F Mix	VR20	9	PsiI-v2	-	-	-	-	-	-	-	-
+PBEH2-34	3	B	VR20F Mix	VR20	9	PsiI-v2	-	+	-	-	-	-	-	-
+PBEH2-35	3	B	VR20F Mix	VR20	9	PsiI-v2	-	+	+	-	-	-	-	-
+PBEH2-36	4	A	VR10, VR20 and pFC9 mix	SSB_mix	3	ApaLI	-	-	-	-	-	-	-	-
+PBEH2-37	4	A	VR10, VR20 and pFC9 mix	SSB_mix	3	ApaLI	-	+	-	-	-	-	-	-
+PBEH2-38	4	A	VR10, VR20 and pFC9 mix	SSB_mix	3	ApaLI	-	+	+	-	-	-	-	-
+PBEH2-39	4	A	VR10, VR20 and pFC9 mix	SSB_mix	3	ApaLI	-	-	-	-	-	+	-	-
+PBEH2-40	4	A	VR10, VR20 and pFC9 mix	SSB_mix	3	ApaLI	-	+	-	-	-	+	-	-
+PBEH2-41	4	A	VR10, VR20 and pFC9 mix	SSB_mix	3	ApaLI	-	+	+	-	-	+	-	-
+PBEH2-42	4	A	VR10, VR20 and pFC9 mix	SSB_mix	3	ApaLI	-	-	-	-	-	+	-	+
+PBEH2-43	4	A	VR10, VR20 and pFC9 mix	SSB_mix	3	ApaLI	-	+	-	-	-	+	-	+
+PBEH2-44	4	A	VR10, VR20 and pFC9 mix	SSB_mix	3	ApaLI	-	+	+	-	-	+	-	+
+PBEH2-45	5	A	T7init VR-10	T7_initiation_series/T7_init_VR-10.gb	1	-	-	-	-	+	-	-	-	-
+PBEH2-46	5	A	T7init VR-10	T7_initiation_series/T7_init_VR-10.gb	1	-	-	+	-	+	-	-	-	-
+PBEH2-47	5	A	T7init VR-10	T7_initiation_series/T7_init_VR-10.gb	1	-	-	+	-	-	+	-	-	-
+PBEH2-48	5	A	T7init VR-10	T7_initiation_series/T7_init_VR-10.gb	1	-	-	+	+	+	-	-	-	-
+PBEH2-49	5	A	T7init VR-20	T7_initiation_series/T7_init_VR-20.gb	1	-	-	-	-	+	-	-	-	-
+PBEH2-50	5	A	T7init VR-20	T7_initiation_series/T7_init_VR-20.gb	1	-	-	+	-	+	-	-	-	-
+PBEH2-51	5	A	T7init VR-20	T7_initiation_series/T7_init_VR-20.gb	1	-	-	+	-	-	+	-	-	-
+PBEH2-52	5	A	T7init VR-20	T7_initiation_series/T7_init_VR-20.gb	1	-	-	+	+	+	-	-	-	-
+PBEH2-53	5	A	pFC9	pFC9.gb	1	-	-	-	-	+	-	-	-	-
+PBEH2-54	5	A	pFC9	pFC9.gb	1	-	-	+	-	+	-	-	-	-
+PBEH2-55	5	A	pFC9	pFC9.gb	1	-	-	+	-	-	+	-	-	-
+PBEH2-56	5	A	pFC9	pFC9.gb	1	-	-	+	+	+	-	-	-	-
+PBEH2-57	5	A	pFC53	pFC53.gb	1	-	-	-	-	+	-	-	-	-
+PBEH2-58	5	A	pFC53	pFC53.gb	1	-	-	+	-	+	-	-	-	-
+PBEH2-59	5	A	pFC53	pFC53.gb	1	-	-	+	-	-	+	-	-	-
+PBEH2-60	5	A	pFC53	pFC53.gb	1	-	-	+	+	+	-	-	-	-
+PBEH2-61	6	A	T3termsh VRmix	T3short_termination_series	31	-	-	-	-	-	-	-	-	-
+PBEH2-62	6	A	T3termsh VRmix	T3short_termination_series	31	-	-	+	-	-	-	-	-	-
+PBEH2-63	6	A	T3termsh VRmix	T3short_termination_series	31	-	-	+	+	-	-	-	-	-
+PBEH2-64	6	A	T3termsh VRmix	T3short_termination_series	31	ScaI	-	-	-	-	-	-	-	-
+PBEH2-65	6	A	T3termsh VRmix	T3short_termination_series	31	ScaI	-	+	-	-	-	-	-	-
+PBEH2-66	6	A	T3termsh VRmix	T3short_termination_series	31	ScaI	-	+	+	-	-	-	-	-
+PBEH2-67	7	B	pFC8T1T2init VRmix	Tac_initiation_series	31	-	-	-	-	-	-	-	-	-
+PBEH2-68	7	B	pFC8T1T2init VRmix	Tac_initiation_series	31	-	-	+	-	-	-	-	-	-
+PBEH2-69	7	B	pFC8T1T2init VRmix	Tac_initiation_series	31	-	-	+	+	-	-	-	-	-
+PBEH2-70	7	B	pFC8T1T2init VRmix	Tac_initiation_series	31	-	-	-	-	+	-	-	-	-
+PBEH2-71	7	B	pFC8T1T2init VRmix	Tac_initiation_series	31	-	-	+	-	+	-	-	-	-
+PBEH2-72	7	B	pFC8T1T2init VRmix	Tac_initiation_series	31	-	-	+	+	+	-	-	-	-
+PBEH2-73	8	A	pFC9	pFC9.gb	1	-	-	+	-	-	-	-	-	-
+PBEH2-74	8	A	pFC9	pFC9.gb	1	-	-	+	+	-	-	-	-	-
+PBEH2-75	8	A	pFC9	pFC9.gb	1	HindIII	-	+	-	-	-	-	+	-
+PBEH2-76	8	A	pFC9	pFC9.gb	1	HindIII	-	+	+	-	-	-	+	-
+PBEH2-77	8	A	pFC9	pFC9.gb	1	-	-	+	-	+	-	-	-	-
+PBEH2-78	8	A	pFC9	pFC9.gb	1	-	-	+	+	+	-	-	-	-
+PBEH2-79	8	A	pFC9	pFC9.gb	1	HindIII	-	+	-	+	-	-	+	-
+PBEH2-80	8	A	pFC9	pFC9.gb	1	HindIII	-	+	+	+	-	-	+	-
+PBEH2-81	9	B	pFC8T1T2	pFC8tacT1T2.gb	1	BsaI-v2	sgRNA8	+	-	-	-	-	-	-
+PBEH2-82	9	B	pFC8T1T2	pFC8tacT1T2.gb	1	BsaI-v2	sgRNA8	+	+	-	-	-	-	-
+PBEH2-83	9	B	pFC8T1T2	pFC8tacT1T2.gb	1	BsaI-v2	sgRNA11	+	-	-	-	-	-	-
+PBEH2-84	9	B	pFC8T1T2	pFC8tacT1T2.gb	1	BsaI-v2	sgRNA11	+	+	-	-	-	-	-
+PBEH2-85	9	B	pFC8T1T2	pFC8tacT1T2.gb	1	BsaI-v2	-	+	-	-	-	-	-	-
+PBEH2-86	9	B	pFC8T1T2	pFC8tacT1T2.gb	1	BsaI-v2	-	+	+	-	-	-	-	-
+PBEH2-87	10	A	VRv2 Mix	T7_initiation_series	7	-	-	+	-	-	-	-	-	-
+PBEH2-88	10	A	VRv2 Mix	T7_initiation_series	7	-	-	+	+	-	-	-	-	-
+PBEH2-89	10	A	VRv2 Mix	T7_initiation_series	7	BsaI-v2	-	+	-	-	-	-	-	-
+PBEH2-90	10	A	VRv2 Mix	T7_initiation_series	7	BsaI-v2	-	+	+	-	-	-	-	-
+PBEH2-91	11	A	VR Mix	T7_initiation_series	31	-	-	-	-	-	-	-	-	-
+PBEH2-92	11	A	VR Mix	T7_initiation_series	31	-	-	-	+	-	-	-	-	-
+PBEH2-93	12	B	VR Mix	T7_initiation_series	31	PsiI-v2	-	-	-	-	-	-	-	-
+PBEH2-94	12	B	VR Mix	T7_initiation_series	31	PsiI-v2	-	-	+	-	-	-	-	-
