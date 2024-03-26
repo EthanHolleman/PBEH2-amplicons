@@ -1,0 +1,102 @@
+LOCUS       2566bp_PCR_prod         2566 bp    DNA              UNK 01-JAN-1980
+DEFINITION  tac_init_T7_init_VR-5.PBEH2-69.
+ACCESSION   2566bp_S2epMok5gU1MeIK4Ghil0RULpfc
+VERSION     2566bp_S2epMok5gU1MeIK4Ghil0RULpfc
+KEYWORDS    .
+SOURCE      .
+  ORGANISM  .
+            .
+FEATURES             Location/Qualifiers
+     primer_bind     29..51
+                     /label="name"
+                     /ApEinfo_fwdcolor="#baffa3"
+                     /ApEinfo_revcolor="#ffbaba"
+     terminator      complement(291..662)
+                     /vntifkey="43"
+                     /label="T1T2\terminators"
+     primer_bind     666..688
+                     /label="tac_init_rev_primer"
+                     /ApEinfo_fwdcolor="#baffa3"
+                     /ApEinfo_revcolor="#ffbaba"
+     misc            complement(970..999)
+                     /name="3' homology arm"
+                     /author="Ethan Holleman"
+                     /label="3_prime_HR"
+                     /note="Homology arm of variable region insert taken from
+                     (base 1) positions 533-563 of pFC9"
+                     /pFC9_start="532"
+                     /pFC9_end="562"
+                     /pFC9_seguid="GgwWaQfD9ayC9M7teGIRvtekf94"
+                     /date="07/27/2021"
+     CDS             complement(1000..1199)
+                     /name="variable_region"
+                     /gc_skew="0.1"
+                     /gc_content="0.4"
+                     /at_skew="0.0"
+                     /at_content="0.6"
+                     /clustered_nucleotide="nan"
+                     /label="Variable region"
+                     /date="28-JUL-2021"
+                     /author="Ethan Holleman"
+     primer_bind     1200..1220
+                     /label="tac_init_fwd_primer"
+                     /ApEinfo_fwdcolor="#baffa3"
+                     /ApEinfo_revcolor="#ffbaba"
+     CDS             complement(1200..1214)
+                     /note="Anchor sequence for primer binding"
+                     /label="Anchor region"
+     promoter        complement(1221..1249)
+                     /vntifkey="30"
+                     /label="tac\promoter"
+     misc_feature    1751..1756
+                     /vntifkey="21"
+                     /label="ApaLI"
+     primer_bind     complement(2515..2538)
+                     /label="name"
+                     /ApEinfo_fwdcolor="#baffa3"
+                     /ApEinfo_revcolor="#ffbaba"
+ORIGIN
+        1 ggcaaacgcg ccattcgtgt caagtctcag cactaaatcg gaaccctaaa gggagccccc
+       61 gatttagagc ttgacgggga aagccggcga acgtggcgag aaaggaaggg aagaaagcga
+      121 aaggagcggg cgctagggcg ctggcaagtg tagcggtcac gctgcgcgta accaccacac
+      181 ccgccgcgct taatgcgccg ctacagggcg cgtcccattc gccattcagg ctacgcaact
+      241 gttgggaagg gcgatcggtg cgggcctctt cgctattacg ccagggatcc cgcctacggt
+      301 catcgcggcc gcgctcttca agatcttcca cagaattctt gaagacgaaa gggcctcgtg
+      361 atacgcctat ttttataggt taatgtcatg agcggataca tatttgaatg tatttagaaa
+      421 aataaacaaa agagtttgta gaaacgcaaa aaggccatcc gtcaggatgg ccttctgctt
+      481 aatttgatgc ctggcagttt atggcgggcg tcctgcccgc caccctccgg gccgttgctt
+      541 cgcaacgttc aaatccgctc ccggcggatt tgtcctactc aggagagcgt tcaccgacaa
+      601 acaacagata aaacgaaagg cccagtcttt cgactgagcc tttcgtttta tttgatgcct
+      661 ggaagcttct gatgccccct cctctacaca gcaatcattc agcgtccctt agtcactccg
+      721 gacagcgaca ggccccgcgg ccgccatgcc caccgcctcc atgccatgcc caccgccgcc
+      781 atgcctaccg ccgccaaagt ccaccaccgc catgcctacc cgctgccaat gcccaccgcc
+      841 gccaataccc actgtcgccg ccttccccct acctcccagc cacttcctac ggactctccc
+      901 cgcgccgcga ccaccaacac aacccccacc actgtcacac cgactcatcc ccctggtcca
+      961 ctgccatagc ctcctcgcct cggtcactgc gacgaattcg aatgtactct ccttatattg
+     1021 tgcgtaatgc tagtaactat cagctgcgaa ggccgcggta attactagga caactttaac
+     1081 agttccagat atcggttaag gtatacaata tactttaggt ttccctgaac cacaatgttt
+     1141 agccattaac caaaggcgct taggatcccc caaactatct tgaggaatcc atatatcttc
+     1201 cgagggagtg tttgggtacc cattatacga gccgatgatt aattgtcaat ctagagcatg
+     1261 cctgcattaa tgaatcggcc aacgcgcggg gagaggcggt ttgcgtattg ggcgctcttc
+     1321 cgcttcctcg ctcactgact cgctgcgctc ggtcgttcgg ctgcggcgag cggtatcagc
+     1381 tcactcaaag gcggtaatac ggttatccac agaatcaggg gataacgcag gaaagaacat
+     1441 gtgagcaaaa ggccagcaaa aggccaggaa ccgtaaaaag gccgcgttgc tggcgttttt
+     1501 ccataggctc ggcccccctg acgagcatca caaaaatcga cgctcaagtc agaggtggcg
+     1561 aaacccgaca ggactataaa gataccaggc gttcccccct ggaagctccc tcgtgcgctc
+     1621 tcctgttccg accctgccgc ttaccggata cctgtccgcc tttctccctt cgggaagcgt
+     1681 ggcgctttct caatgctcac gctgtaggta tctcagttcg gtgtaggtcg ttcgctccaa
+     1741 gctgggctgt gtgcacgaac cccccgttca gcccgaccgc tgcgccttat ccggtaacta
+     1801 tcgtcttgag tccaacccgg taagacacga cttatcgcca ctggcagcag ccactggtaa
+     1861 caggattagc agagcgaggt atgtaggcgg tgctacagag ttcttgaagt ggtggcctaa
+     1921 ctacggctac actagaagga cagtatttgg tatctgcgct ctgctgaagc cagttacctt
+     1981 cggaaaaaga gttggtagct cttgatccgg caaacaaacc accgctggta gcggtggttt
+     2041 ttttgtttgc aagcagcaga ttacgcgcag aaaaaaagga tctcaagaag atcctttgat
+     2101 cttttctacg gggtctgacg ctcagtggaa cgaaaactca cgttaaggga ttttggtcat
+     2161 gagattatca aaaaggatct tcacctagat ccttttaaat taaaaatgaa gttttaaatc
+     2221 aatctaaagt atatatgagt aaacttggtc tgacagttac caatgcttaa tcagtgaggc
+     2281 acctatctca gcgatctgtc tatttcgttc atccatagtt gcctgactgc ccgtcgtgta
+     2341 gataactacg atacgggagg gcttaccatc tggccccagt gctgcaatga taccgcgaga
+     2401 cccacgctca ccggctccag atttatcagc aataaaccag ccagccggaa gggccgagcg
+     2461 cagaagtggt cctgcaactt tatccgcctc catccagtct attaattgtt gccgggaagc
+     2521 tagagtaagt agttcgcctc tgcttgtgca ccacgtgcgc gaatgt
+//

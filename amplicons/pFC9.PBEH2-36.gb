@@ -1,0 +1,72 @@
+LOCUS       1852bp_PCR_prod         1852 bp    DNA              UNK 01-JAN-1980
+DEFINITION  pFC9.PBEH2-36.
+ACCESSION   1852bp_-WRXICwCkY53_9ZB6wWKhDYn2XI
+VERSION     1852bp_-WRXICwCkY53_9ZB6wWKhDYn2XI
+KEYWORDS    .
+SOURCE      .
+  ORGANISM  .
+            .
+FEATURES             Location/Qualifiers
+     primer_bind     29..51
+                     /label="name"
+                     /ApEinfo_fwdcolor="#baffa3"
+                     /ApEinfo_revcolor="#ffbaba"
+     promoter        296..317
+                     /label="T7 promoter"
+                     /label="T7\promoter"
+                     /note="/vntifkey=30"
+     misc_feature    313
+                     /label="T7 +1 Site"
+                     /label="T7\+1\Site"
+                     /note="/vntifkey=21"
+     CDS             353..1292
+                     /codon_start=1
+                     /label="SNRPN"
+                     /note="/vntifkey=4"
+                     /translation="WSTE*TEFGP*SPLFWRTRSGMFRGLLLCRSAPMVSCPLALGRVP
+                     HPPPTVVSRQVLLRVSAVGRAVVTGSMRGNRSGQGTWVEVGTSG*LQFRVARVRGGTSA
+                     *GF*AEVGILE*LWRGEGT*SDRYLGGVERR*VYNSDHCVVEQGTWGDWGGNSSQ*PRR
+                     GGYGSGPGG*VGVTVVGVVLVVAARGESVGSGWEVGGRRRQWVLAAVGIGSG*AWRWWT
+                     LAAVGMAAVGMAWRRWAWRPRGLSLSGVTKGR*MIAV*RRGHQKGQ*HSPQPLIFL*PA
+                     MVIWFAYCGGGAFLLKLRNAYTAAGAAEMRGI"
+     promoter        complement(1331..1347)
+                     /label="T3 promoter"
+                     /label="T3\promoter"
+                     /note="/vntifkey=30"
+     primer_bind     complement(1801..1825)
+                     /label="name"
+                     /ApEinfo_fwdcolor="#baffa3"
+                     /ApEinfo_revcolor="#ffbaba"
+ORIGIN
+        1 ggcaaacgcg ccattcgtgt ggtaacacag cactaaatcg gaaccctaaa gggagccccc
+       61 gatttagagc ttgacgggga aagccggcga acgtggcgag aaaggaaggg aagaaagcga
+      121 aaggagcggg cgctagggcg ctggcaagtg tagcggtcac gctgcgcgta accaccacac
+      181 ccgccgcgct taatgcgccg ctacagggcg cgtcccattc gccattcagg ctacgcaact
+      241 gttgggaagg gcgatcggtg cgggcctctt cgctattacg ccagggatcc tgcagtaata
+      301 cgactcacta tagggcgaat tggagctcca catcaagctt atcgataccg tctggagtac
+      361 tgaataaacg gaatttgggc cctaaagtcc tttgttctgg agaaccagat ccggaatgtt
+      421 cagaggcttg ctgttgtgcc gttctgcccc gatggtatcc tgtccgctcg cattggggcg
+      481 cgtcccccat ccgcccccaa ctgtggtgtc gcgacaggtc ctattgcggg tgtctgcggt
+      541 gggaagggcg gtggtgactg ggagcatgcg gggtaaccgc agtgggcaag ggacatgggt
+      601 ggaggtgggt acatcagggt gattgcagtt ccgtgtggcg agggtacgtg gggggaccag
+      661 tgcataggga ttttaggcgg aggtaggtat attggagtga ttgtggcggg gcgaaggtac
+      721 gtgaagtgat cggtatttag ggggtgttga gcgcaggtag gtgtataata gtgaccactg
+      781 cgtggtggag cagggtacgt ggggcgactg gggggggaat tcgtcgcagt gaccgaggcg
+      841 aggaggctat ggcagtggac cagggggatg agtcggtgtg acagtggtgg gggttgtgtt
+      901 ggtggtcgcg gcgcggggag agtccgtagg aagtggctgg gaggtagggg gaaggcggcg
+      961 acagtgggta ttggcggcgg tgggcattgg cagcgggtag gcatggcggt ggtggacttt
+     1021 ggcggcggta ggcatggcgg cggtgggcat ggcatggagg cggtgggcat ggcggccgcg
+     1081 gggcctgtcg ctgtccggag tgactaaggg acgctgaatg attgctgtgt agaggagggg
+     1141 gcatcagaag gggcagtagc acagtccgca gcctttaatt ttcctgtgac ctgcgatggt
+     1201 catctggttt gcctactgtg gtggtggtgc ttttttatta aaactgcgca atgcctacac
+     1261 tgccgcaggg gctgcagaaa tgcgtggaat ccagacctcg agggggggcc cggtacccag
+     1321 cttttgttcc ctttagtgag ggttaattct agagcatgcc tgcattaatg aatcggccaa
+     1381 cgcgcgggga gaggcggttt gcgtattggg cgctcttccg cttcctcgct cactgactcg
+     1441 ctgcgctcgg tcgttcggct gcggcgagcg gtatcagctc actcaaaggc ggtaatacgg
+     1501 ttatccacag aatcagggga taacgcagga aagaacatgt gagcaaaagg ccagcaaaag
+     1561 gccaggaacc gtaaaaaggc cgcgttgctg gcgtttttcc ataggctcgg cccccctgac
+     1621 gagcatcaca aaaatcgacg ctcaagtcag aggtggcgaa acccgacagg actataaaga
+     1681 taccaggcgt tcccccctgg aagctccctc gtgcgctctc ctgttccgac cctgccgctt
+     1741 accggatacc tgtccgcctt tctcccttcg ggaagcgtgg cgctttctca atgctcacgc
+     1801 tgtaggtatc tcagttcggt gtagggctca attgcaccac gtgcgcgaat gt
+//
