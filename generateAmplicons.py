@@ -4,6 +4,8 @@
 # 3/25/24
 
 from pydna.amplify import pcr
+from pydna.readers import read
+from Bio import SeqIO
 import pandas as pd
 from pathlib import Path
 
@@ -11,9 +13,10 @@ from pathlib import Path
 # Filepaths, these should all be included in the repo and should not change
 # and are therefore hardcoded into the amplicon generation script
 # ==============================================================================
-SAMPLE_DF_PATH = 'PBEH2_samples.txt'  # location of sample assignment data
+SAMPLE_DF_PATH = 'PBEH2_samples.tsv'  # location of sample assignment data
 PRIMER_DF_PATH = 'primers.tsv'  # list of primers used (and not used) and names
 PLASMID_DIR = Path('plasmids')  # location with all plasmid data files (gb)
+AMPLICON_DIR = 'amplicons'
 
 
 def make_plasmid_paths(sample_row):
@@ -66,35 +69,51 @@ def select_primer_pair(sample_row, primer_df):
 
 
 
-def amplify_plasmids(sample_plasmids, sample_primers):
+def amplify_plasmids(sample_row):
 
 
-    fwd_primer_seq = sample_primers[0].seq
-    rev_primer_seq = sample_primers[-1].seq
+    fwd_primer_seq = sample_row.primer_pair[0].seq
+    rev_primer_seq = sample_row.primer_pair[-1].seq
 
     pcr_products = []
 
-    def make_amplicon_name(plasmid):
-        return f'{plasmid}.PBEH2-{sample_id}'
-
+    def make_amplicon_name(plasmid_path):
+        # Name attribute of plasmid file not always correct or very concise
+        # so make some adjustments here so things are more readable and cleaner
+        name = None
+        if PLASMID_DIR.joinpath(Path(sample_row['Plasmid Loc'])).is_file():
+            # Single plasmid sample so just use the name that is listed here
+            name = Path(sample_row['Plasmid Loc']).stem
         
+        else:
+            name = plasmid_path.stem
+        
+        name = f'{name}.{sample_row.Sample_ID}'
 
-    for each_plasmid in sample_plasmids:
-        amplicon = pcr(fwd_primer_seq, rev_primer_seq, each_plasmid)
+        return name
+            
+
+    for each_plasmid in sample_row.plasmid_paths:
+
+        plasmid_record = read(str(each_plasmid))
+        amplicon = pcr(fwd_primer_seq, rev_primer_seq, plasmid_record)
         amplicon_name = make_amplicon_name(each_plasmid)
-        pcr_products.append(  # store each template and its amplicon
-            (each_plasmid, amplicon, amplicon_name)
-        )
+        print(amplicon_name)
+        pcr_products.append((amplicon, amplicon_name))
 
-    return
+    return pcr_products
 
 
-def make_sample_to_amplicon_dict():
-    pass
-
+def write_amplicons(sample_df, output_path):
     
+    output_path = Path(output_path)
 
-
+    for i, each_row in sample_df.iterrows():
+        for each_amplicon, each_name in each_row.amplicons:
+            output_file = str(output_path.joinpath(each_name)) + '.gb'
+            each_amplicon.locus = each_amplicon.locus.replace(' ', '.')
+            each_amplicon.definition = each_name
+            SeqIO.write(each_amplicon, output_file, 'gb')
 
 
 def main():
@@ -114,6 +133,19 @@ def main():
         lambda row: select_primer_pair(row, primer_df),
         axis=1
     )
+
+    # Add a column with list of the actual PCR products (amplicons) that
+    # should in theory be included in this sample
+    print(sample_df.columns)
+    sample_df['amplicons'] = sample_df.apply(
+        lambda row: amplify_plasmids(row),
+        axis=1
+    )
+
+    if not Path(AMPLICON_DIR).is_dir():
+        Path(AMPLICON_DIR).mkdir()
+
+    write_amplicons(sample_df, AMPLICON_DIR)
 
     
 
