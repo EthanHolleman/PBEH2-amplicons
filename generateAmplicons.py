@@ -104,16 +104,21 @@ def amplify_plasmids(sample_row):
     return pcr_products
 
 
-def write_amplicons(sample_df, output_path):
+def write_amplicons(sample_df, fa_path, gb_path):
     
-    output_path = Path(output_path)
 
     for i, each_row in sample_df.iterrows():
+
         for each_amplicon, each_name in each_row.amplicons:
-            output_file = str(output_path.joinpath(each_name)) + '.gb'
+
+            output_fa = str(Path(fa_path).joinpath(each_name)) + '.fa'
+            output_gb = str(Path(gb_path).joinpath(each_name)) + '.gb'
+
             each_amplicon.locus = each_amplicon.locus.replace(' ', '.')
             each_amplicon.definition = each_name
-            SeqIO.write(each_amplicon, output_file, 'gb')
+
+            SeqIO.write(each_amplicon, output_gb, 'gb')
+            SeqIO.write(each_amplicon, output_fa, 'fasta')
 
 
 def main():
@@ -142,10 +147,13 @@ def main():
         axis=1
     )
 
-    if not Path(AMPLICON_DIR).is_dir():
-        Path(AMPLICON_DIR).mkdir()
+    amplicons_gb = Path(AMPLICON_DIR).joinpath('genbank')
+    amplicons_fa = Path(AMPLICON_DIR).joinpath('fasta')
 
-    write_amplicons(sample_df, AMPLICON_DIR)
+    amplicons_gb.mkdir(parents=True, exist_ok=True)
+    amplicons_fa.mkdir(parents=True, exist_ok=True)
+
+    write_amplicons(sample_df, amplicons_fa, amplicons_gb)
 
     
 
