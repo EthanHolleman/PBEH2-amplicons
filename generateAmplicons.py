@@ -112,7 +112,7 @@ def amplify_plasmids(sample_row):
         plasmid_record = read(str(each_plasmid))
         amplicon = pcr(fwd_primer_seq, rev_primer_seq, plasmid_record)
         amplicon_name = make_amplicon_name(each_plasmid)
-        print(amplicon_name, len(amplicon))
+        #print(amplicon_name, len(amplicon))
         pcr_products.append((amplicon, amplicon_name))
 
     return pcr_products
