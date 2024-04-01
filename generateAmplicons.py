@@ -8,6 +8,7 @@ from pydna.readers import read
 from Bio import SeqIO
 import pandas as pd
 from pathlib import Path
+import matplotlib.pyplot as plt
 
 
 # Filepaths, these should all be included in the repo and should not change
@@ -17,6 +18,19 @@ SAMPLE_DF_PATH = 'PBEH2_samples.tsv'  # location of sample assignment data
 PRIMER_DF_PATH = 'primers.tsv'  # list of primers used (and not used) and names
 PLASMID_DIR = Path('plasmids')  # location with all plasmid data files (gb)
 AMPLICON_DIR = 'amplicons'
+
+# def get_sequence_lengths(amplicons):
+#     sequence_lengths = []
+#     for record in amplicons:
+#         sequence_lengths.append(len(record))
+#     return sequence_lengths
+
+# def plot_histogram(sequence_lengths):
+#     plt.hist(sequence_lengths, bins=50, color='blue', edgecolor='black')
+#     plt.xlabel('Sequence Length')
+#     plt.ylabel('Frequency')
+#     plt.title('Histogram of Sequence Lengths')
+#     plt.show()
 
 
 def make_plasmid_paths(sample_row):
@@ -98,7 +112,7 @@ def amplify_plasmids(sample_row):
         plasmid_record = read(str(each_plasmid))
         amplicon = pcr(fwd_primer_seq, rev_primer_seq, plasmid_record)
         amplicon_name = make_amplicon_name(each_plasmid)
-        print(amplicon_name)
+        print(amplicon_name, len(amplicon))
         pcr_products.append((amplicon, amplicon_name))
 
     return pcr_products
@@ -106,6 +120,7 @@ def amplify_plasmids(sample_row):
 
 def write_amplicons(sample_df, fa_path, gb_path):
     
+    amplicon_fas = []
 
     for i, each_row in sample_df.iterrows():
 
@@ -119,6 +134,10 @@ def write_amplicons(sample_df, fa_path, gb_path):
 
             SeqIO.write(each_amplicon, output_gb, 'gb')
             SeqIO.write(each_amplicon, output_fa, 'fasta')
+
+            amplicon_fas.append(each_amplicon)
+    
+    return amplicon_fas
 
 
 def main():
@@ -153,7 +172,9 @@ def main():
     amplicons_gb.mkdir(parents=True, exist_ok=True)
     amplicons_fa.mkdir(parents=True, exist_ok=True)
 
-    write_amplicons(sample_df, amplicons_fa, amplicons_gb)
+    amplicons = write_amplicons(sample_df, amplicons_fa, amplicons_gb)
+    #lengths = get_sequence_lengths(amplicons)
+    #plot_histogram(lengths)
 
     
 
