@@ -86,10 +86,10 @@ PBEH2-83	9	B	pFC8T1T2	pFC8tacT1T2.gb	1	BsaI-v2	sgRNA11	+	-	-	-	-	-	-	1/7/24	1/7/
 PBEH2-84	9	B	pFC8T1T2	pFC8tacT1T2.gb	1	BsaI-v2	sgRNA11	+	+	-	-	-	-	-	1/7/24	1/7/24	1/9/24	Gel Extraction and column cleanup	PacBioFwdV2-0	PacBioRevV2-4
 PBEH2-85	9	B	pFC8T1T2	pFC8tacT1T2.gb	1	BsaI-v2	-	+	-	-	-	-	-	-	1/7/24	1/7/24	1/9/24	Gel Extraction and column cleanup	PacBioFwdV2-1	PacBioRevV2-0
 PBEH2-86	9	B	pFC8T1T2	pFC8tacT1T2.gb	1	BsaI-v2	-	+	+	-	-	-	-	-	1/7/24	1/7/24	1/9/24	Gel Extraction and column cleanup	PacBioFwdV2-1	PacBioRevV2-1
-PBEH2-87	10	A	VRv2 Mix	T7_initiation_series	7	-	-	+	-	-	-	-	-	-	1/10/24	1/10/24	1/11/24	Gel Extraction and column cleanup	PacBioFwdV2-3	PacBioRevV2-0
-PBEH2-88	10	A	VRv2 Mix	T7_initiation_series	7	-	-	+	+	-	-	-	-	-	1/10/24	1/10/24	1/11/24	Gel Extraction and column cleanup	PacBioFwdV2-3	PacBioRevV2-1
-PBEH2-89	10	A	VRv2 Mix	T7_initiation_series	7	BsaI-v2	-	+	-	-	-	-	-	-	1/10/24	1/10/24	1/11/24	Gel Extraction and column cleanup	PacBioFwdV2-3	PacBioRevV2-3
-PBEH2-90	10	A	VRv2 Mix	T7_initiation_series	7	BsaI-v2	-	+	+	-	-	-	-	-	1/10/24	1/10/24	1/11/24	Gel Extraction and column cleanup	PacBioFwdV2-3	PacBioRevV2-5
+PBEH2-87	10	A	VRv2 Mix	VRv2Mix	7	-	-	+	-	-	-	-	-	-	1/10/24	1/10/24	1/11/24	Gel Extraction and column cleanup	PacBioFwdV2-3	PacBioRevV2-0
+PBEH2-88	10	A	VRv2 Mix	VRv2Mix	7	-	-	+	+	-	-	-	-	-	1/10/24	1/10/24	1/11/24	Gel Extraction and column cleanup	PacBioFwdV2-3	PacBioRevV2-1
+PBEH2-89	10	A	VRv2 Mix	VRv2Mix	7	BsaI-v2	-	+	-	-	-	-	-	-	1/10/24	1/10/24	1/11/24	Gel Extraction and column cleanup	PacBioFwdV2-3	PacBioRevV2-3
+PBEH2-90	10	A	VRv2 Mix	VRv2Mix	7	BsaI-v2	-	+	+	-	-	-	-	-	1/10/24	1/10/24	1/11/24	Gel Extraction and column cleanup	PacBioFwdV2-3	PacBioRevV2-5
 PBEH2-91	11	A	VR Mix	T7_initiation_series	31	-	-	-	-	-	-	-	-	-	2/21/24	2/22/24			PacBioFwdV2-5	PacBioRevV2-1
 PBEH2-92	11	A	VR Mix	T7_initiation_series	31	-	-	-	+	-	-	-	-	-	2/21/24	2/22/24			PacBioFwdV2-9	PacBioRevV2-4
 PBEH2-93	12	B	VR Mix	T7_initiation_series	31	PsiI-v2	-	-	-	-	-	-	-	-	2/21/24	2/22/24			PacBioFwdV2-7	PacBioRevV2-0
