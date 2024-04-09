@@ -54,6 +54,8 @@ def make_plasmid_paths(sample_row):
             each_path for each_path in plasmid_path.iterdir() 
             if each_path.suffix == '.gb'
             ]
+        if str(plasmid_path) == 'plasmids/VRv2Mix':
+            print(plasmids, '\n')
     else:
         plasmids = [plasmid_path]
     
@@ -141,6 +143,7 @@ def write_amplicons(sample_df, fa_path, gb_path):
 
 
 def main():
+
 
     # Read in all needed data
     sample_df = pd.read_csv(SAMPLE_DF_PATH, sep='\t')
