@@ -1,7 +1,7 @@
-LOCUS       2362bp_PCR_prod         2362 bp    DNA              UNK 01-JAN-1980
+LOCUS       1988bp_PCR_prod         1988 bp    DNA              UNK 01-JAN-1980
 DEFINITION  pFC9.PBEH2-78.
-ACCESSION   2362bp_3RUCeN6ONbunZ8RD1HT7pMMfrIs
-VERSION     2362bp_3RUCeN6ONbunZ8RD1HT7pMMfrIs
+ACCESSION   1988bp_CbbtyKiLG2L4wdL5ZlhVBUKPpOU
+VERSION     1988bp_CbbtyKiLG2L4wdL5ZlhVBUKPpOU
 KEYWORDS    .
 SOURCE      .
   ORGANISM  .
@@ -25,7 +25,7 @@ FEATURES             Location/Qualifiers
                      /label="T3 promoter"
                      /label="T3\promoter"
                      /note="/vntifkey=30"
-     primer_bind     complement(2311..2334)
+     primer_bind     complement(1937..1961)
                      /label="name"
                      /ApEinfo_fwdcolor="#baffa3"
                      /ApEinfo_revcolor="#ffbaba"
@@ -62,12 +62,6 @@ ORIGIN
      1741 atttggtatc tgcgctctgc tgaagccagt taccttcgga aaaagagttg gtagctcttg
      1801 atccggcaaa caaaccaccg ctggtagcgg tggttttttt gtttgcaagc agcagattac
      1861 gcgcagaaaa aaaggatctc aagaagatcc tttgatcttt tctacggggt ctgacgctca
-     1921 gtggaacgaa aactcacgtt aagggatttt ggtcatgaga ttatcaaaaa ggatcttcac
-     1981 ctagatcctt ttaaattaaa aatgaagttt taaatcaatc taaagtatat atgagtaaac
-     2041 ttggtctgac agttaccaat gcttaatcag tgaggcacct atctcagcga tctgtctatt
-     2101 tcgttcatcc atagttgcct gactgcccgt cgtgtagata actacgatac gggagggctt
-     2161 accatctggc cccagtgctg caatgatacc gcgagaccca cgctcaccgg ctccagattt
-     2221 atcagcaata aaccagccag ccggaagggc cgagcgcaga agtggtcctg caactttatc
-     2281 cgcctccatc cagtctatta attgttgccg ggaagctaga gtaagtagtt cgcctgttcc
-     2341 gttgcaccac gtgcgcgaat gt
+     1921 gtggaacgaa aactcacgtt aagggatttt ggtcatgaga tgttccgttg caccacgtgc
+     1981 gcgaatgt
 //
