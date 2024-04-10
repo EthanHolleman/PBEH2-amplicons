@@ -5,32 +5,26 @@
 
 from pydna.amplify import pcr
 from pydna.readers import read
+import argparse
 from Bio import SeqIO
 import pandas as pd
 from pathlib import Path
 import matplotlib.pyplot as plt
 
 
-# Filepaths, these should all be included in the repo and should not change
-# and are therefore hardcoded into the amplicon generation script
-# ==============================================================================
-SAMPLE_DF_PATH = 'PBEH2_samples.tsv'  # location of sample assignment data
-PRIMER_DF_PATH = 'primers.tsv'  # list of primers used (and not used) and names
-PLASMID_DIR = Path('plasmids')  # location with all plasmid data files (gb)
-AMPLICON_DIR = 'amplicons'
+def parse_args():
+    parser = argparse.ArgumentParser(
+                    prog='Generate amplicons',
+                    description='Generate PacBio sequencing amplicons'
+    )
+    parser.add_argument('sample_tsv', help='Path to sample tsv')
+    parser.add_argument('primer_tsv', help='Path to primer list tsv file')
+    parser.add_argument('plasmid_dir', help='Path to plasmid reference dir')
+    parser.add_argument('output_dir', help='Output directory path')
 
-# def get_sequence_lengths(amplicons):
-#     sequence_lengths = []
-#     for record in amplicons:
-#         sequence_lengths.append(len(record))
-#     return sequence_lengths
+    args = parser.parse_args()
 
-# def plot_histogram(sequence_lengths):
-#     plt.hist(sequence_lengths, bins=50, color='blue', edgecolor='black')
-#     plt.xlabel('Sequence Length')
-#     plt.ylabel('Frequency')
-#     plt.title('Histogram of Sequence Lengths')
-#     plt.show()
+    return args
 
 
 def make_plasmid_paths(sample_row):
@@ -144,10 +138,11 @@ def write_amplicons(sample_df, fa_path, gb_path):
 
 def main():
 
+    args = parse_args()
 
     # Read in all needed data
-    sample_df = pd.read_csv(SAMPLE_DF_PATH, sep='\t')
-    primer_df = pd.read_csv(PRIMER_DF_PATH, sep='\t')
+    sample_df = pd.read_csv(args.sample_tsv, sep='\t')
+    primer_df = pd.read_csv(args.primer_tsv, sep='\t')
 
     # Add column containing paths to files for all plasmids in the sample
     # represented by each row of the dataframe
@@ -163,14 +158,13 @@ def main():
 
     # Add a column with list of the actual PCR products (amplicons) that
     # should in theory be included in this sample
-    print(sample_df.columns)
     sample_df['amplicons'] = sample_df.apply(
         lambda row: amplify_plasmids(row),
         axis=1
     )
 
-    amplicons_gb = Path(AMPLICON_DIR).joinpath('genbank')
-    amplicons_fa = Path(AMPLICON_DIR).joinpath('fasta')
+    amplicons_gb = Path(args.output_dir).joinpath('genbank')
+    amplicons_fa = Path(args.output_dir).joinpath('fasta')
 
     amplicons_gb.mkdir(parents=True, exist_ok=True)
     amplicons_fa.mkdir(parents=True, exist_ok=True)
