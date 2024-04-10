@@ -1,0 +1,130 @@
+LOCUS       2619bp_PCR_prod         2619 bp    DNA              UNK 01-JAN-1980
+DEFINITION  pFC53TVR-13-pair_0.31.
+ACCESSION   2619bp_7zU3CfYAFiT5GsJpOHrGKJxwwJs
+VERSION     2619bp_7zU3CfYAFiT5GsJpOHrGKJxwwJs
+KEYWORDS    .
+SOURCE      .
+  ORGANISM  .
+            .
+FEATURES             Location/Qualifiers
+     primer_bind     29..51
+                     /label="name"
+                     /ApEinfo_fwdcolor="#baffa3"
+                     /ApEinfo_revcolor="#ffbaba"
+     promoter        296..317
+                     /label="T7 promoter"
+                     /note="T7 promoter"
+     primer_bind     complement(296..317)
+                     /label="T7RC primer_rc"
+                     /ApEinfo_fwdcolor="#baffa3"
+                     /ApEinfo_revcolor="#ffbaba"
+     promoter        296..317
+                     /label="T7 promoter"
+                     /note="T7 promoter"
+     primer_bind     296..317
+                     /label="name"
+                     /ApEinfo_fwdcolor="#baffa3"
+                     /ApEinfo_revcolor="#ffbaba"
+     misc_feature    313
+                     /label="T7 +1 Site"
+                     /note="T7 +1 Site"
+     misc_feature    313
+                     /label="T7 +1 Site"
+                     /note="T7 +1 Site"
+     primer_bind     851..866
+                     /label="name"
+                     /ApEinfo_fwdcolor="#baffa3"
+                     /ApEinfo_revcolor="#ffbaba"
+     CDS             852..866
+                     /note="Anchor sequence for primer binding"
+                     /label="Anchor region"
+     CDS             867..1066
+                     /name="variable_region"
+                     /gc_skew="0.4"
+                     /gc_content="0.4"
+                     /at_skew="0.0"
+                     /at_content="0.6"
+                     /clustered_nucleotide="nan"
+                     /label="Variable region"
+                     /date="28-JUL-2021"
+                     /author="Ethan Holleman"
+     misc            1067..1096
+                     /name="3' homology arm"
+                     /author="Ethan Holleman"
+                     /label="3_prime_HR"
+                     /note="Homology arm of variable region insert taken from
+                     (base 1) positions 533-563 of pFC9"
+                     /pFC9_start="532"
+                     /pFC9_end="562"
+                     /pFC9_seguid="GgwWaQfD9ayC9M7teGIRvtekf94"
+                     /date="07/27/2021"
+     primer_bind     complement(1067..1098)
+                     /label="<unknown name>"
+     primer_bind     1097..1116
+                     /label="name"
+                     /ApEinfo_fwdcolor="#baffa3"
+                     /ApEinfo_revcolor="#ffbaba"
+     primer_bind     complement(1272..1285)
+                     /label="name_rc"
+                     /ApEinfo_fwdcolor="#baffa3"
+                     /ApEinfo_revcolor="#ffbaba"
+     promoter        complement(1286..1302)
+                     /label="T3 Promoter"
+                     /note="T3 Promoter"
+     primer_bind     1286..1303
+                     /label="T3RC primer_rc"
+                     /ApEinfo_fwdcolor="#baffa3"
+                     /ApEinfo_revcolor="#ffbaba"
+     misc_feature    1804..1809
+                     /label="ApaLI"
+                     /note="ApaLI"
+     primer_bind     complement(2568..2591)
+                     /label="name"
+                     /ApEinfo_fwdcolor="#baffa3"
+                     /ApEinfo_revcolor="#ffbaba"
+ORIGIN
+        1 ggcaaacgcg ccattcgtgt atggatcgag cactaaatcg gaaccctaaa gggagccccc
+       61 gatttagagc ttgacgggga aagccggcga acgtggcgag aaaggaaggg aagaaagcga
+      121 aaggagcggg cgctagggcg ctggcaagtg tagcggtcac gctgcgcgta accaccacac
+      181 ccgccgcgct taatgcgccg ctacagggcg cgtcccattc gccattcagg ctacgcaact
+      241 gttgggaagg gcgatcggtg cgggcctctt cgctattacg ccagggatcc tgcagtaata
+      301 cgactcacta tagggcgaat tggagctcca catcaagctt ttgagcttgc ctctcttgca
+      361 acgtggcact tttgagttca tctctcctgt aacatggcac ttttgagcgt tggccctgat
+      421 cacagaaccc ttcgaatcct ccccttgtgc agtttgcacc ctcaggatac ctcggaatcc
+      481 tccgagccgt ctcttcccct cccctcgcgc aacttggcat aaccagaatc acagcccaac
+      541 cggaatcgca ttaaaaccct ccgaaccttt gggcagcgcg gcaccggggc tcacgcagtg
+      601 ccgcggaacc ctcggaaccc tgcccttgtg cagcttcgca ccctcaggat agctcggaac
+      661 cctctgagct ttcccttccc tttccctcac cgcaactcag cacaaccaag gatcacggca
+      721 caaccggaat tgctccgaac cctcgggcag cactgcggcg cagtgccgcg gaaccctcta
+      781 aaccctccga atcccctcct tgtgcagctt ttcaccctta gcctctctcg caactcggca
+      841 caaccagaat ccaaacactc cctcggcaat aatatcatgt cttacaggga tgaaaggtga
+      901 gcggatatct gcattggtga aggcacaggg tgagttgcgg tgcttttagt aggctacatg
+      961 gattattgag tcttattgaa taggaaaaaa agcaaccaga aagggttggg ttagtctgga
+     1021 ttaatatcaa attgttaggt agatggtttc gtcccaggaa ttatctgaat tcgtcgcagt
+     1081 gaccgaggcg aggaggctcc gatctccacc ccccccccca actctccagc agcgtggtgc
+     1141 cctagcgcga acccctgctc cccttgcgca gcgtggcacc ctcgtgctct aaatcgcccg
+     1201 taaacccccc ccccccccag tgcagcagtc ggcccgcgct ggacgccccc ctcccttttc
+     1261 ctcttgctga cgcggcatgg cggcacttta gtgagggtta attctagagc atgcctgcat
+     1321 taatgaatcg gccaacgcgc ggggagaggc ggtttgcgta ttgggcgctc ttccgcttcc
+     1381 tcgctcactg actcgctgcg ctcggtcgtt cggctgcggc gagcggtatc agctcactca
+     1441 aaggcggtaa tacggttatc cacagaatca ggggataacg caggaaagaa catgtgagca
+     1501 aaaggccagc aaaaggccag gaaccgtaaa aaggccgcgt tgctggcgtt tttccatagg
+     1561 ctcggccccc ctgacgagca tcacaaaaat cgacgctcaa gtcagaggtg gcgaaacccg
+     1621 acaggactat aaagatacca ggcgttcccc cctggaagct ccctcgtgcg ctctcctgtt
+     1681 ccgaccctgc cgcttaccgg atacctgtcc gcctttctcc cttcgggaag cgtggcgctt
+     1741 tctcaatgct cacgctgtag gtatctcagt tcggtgtagg tcgttcgctc caagctgggc
+     1801 tgtgtgcacg aaccccccgt tcagcccgac cgctgcgcct tatccggtaa ctatcgtctt
+     1861 gagtccaacc cggtaagaca cgacttatcg ccactggcag cagccactgg taacaggatt
+     1921 agcagagcga ggtatgtagg cggtgctaca gagttcttga agtggtggcc taactacggc
+     1981 tacactagaa ggacagtatt tggtatctgc gctctgctga agccagttac cttcggaaaa
+     2041 agagttggta gctcttgatc cggcaaacaa accaccgctg gtagcggtgg tttttttgtt
+     2101 tgcaagcagc agattacgcg cagaaaaaaa ggatctcaag aagatccttt gatcttttct
+     2161 acggggtctg acgctcagtg gaacgaaaac tcacgttaag ggattttggt catgagatta
+     2221 tcaaaaagga tcttcaccta gatcctttta aattaaaaat gaagttttaa atcaatctaa
+     2281 agtatatatg agtaaacttg gtctgacagt taccaatgct taatcagtga ggcacctatc
+     2341 tcagcgatct gtctatttcg ttcatccata gttgcctgac tgcccgtcgt gtagataact
+     2401 acgatacggg agggcttacc atctggcccc agtgctgcaa tgataccgcg agacccacgc
+     2461 tcaccggctc cagatttatc agcaataaac cagccagccg gaagggccga gcgcagaagt
+     2521 ggtcctgcaa ctttatccgc ctccatccag tctattaatt gttgccggga agctagagta
+     2581 agtagttcgc ccgatccatt gcaccacgtg cgcgaatgt
+//
