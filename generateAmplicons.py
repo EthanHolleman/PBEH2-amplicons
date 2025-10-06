@@ -139,7 +139,10 @@ def write_amplicons(sample_df, fa_path, gb_path):
 def main():
 
     args = parse_args()
-
+    
+    global PLASMID_DIR
+    PLASMID_DIR = Path(args.plasmid_dir)
+    
     # Read in all needed data
     sample_df = pd.read_csv(args.sample_tsv, sep='\t')
     primer_df = pd.read_csv(args.primer_tsv, sep='\t')
@@ -174,10 +177,5 @@ def main():
     #plot_histogram(lengths)
 
     
-
-
-
-
-
 if __name__ == '__main__':
     main()
