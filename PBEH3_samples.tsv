@@ -1,0 +1,39 @@
+Sample_ID	Template	Fwd_primer	Plasmid Loc	Rev_primer
+1	T3TermShort	PacBioFwdV2-0	T3short_termination_series	PacBioRevV2-24-P9
+2	T3TermShort	PacBioFwdV2-1	T3short_termination_series	PacBioRevV2-25-P9
+3	T3TermShort	PacBioFwdV2-2	T3short_termination_series	PacBioRevV2-26-P9
+4	T3TermShort	PacBioFwdV2-3	T3short_termination_series	PacBioRevV2-27-P9
+5	T3TermShort	PacBioFwdV2-4	T3short_termination_series	PacBioRevV2-24-P9
+6	T3TermShort	PacBioFwdV2-5	T3short_termination_series	PacBioRevV2-25-P9
+7	T3TermShort	PacBioFwdV2-6	T3short_termination_series	PacBioRevV2-26-P9
+8	T3TermShort	PacBioFwdV2-7	T3short_termination_series	PacBioRevV2-27-P9
+9	T3TermShort	PacBioFwdV2-8	T3short_termination_series	PacBioRevV2-24-P9
+10	T3TermShort	PacBioFwdV2-9	T3short_termination_series	PacBioRevV2-25-P9
+11	T3TermShort	PacBioFwdV2-0	T3short_termination_series	PacBioRevV2-26-P9
+12	T3TermShort	PacBioFwdV2-1	T3short_termination_series	PacBioRevV2-27-P9
+13	VR20F Mix	PacBioFwdV2-3	VR20F	PacBioRevV2-0
+14	VR20F Mix	PacBioFwdV2-4	VR20F	PacBioRevV2-1
+15	VR20F Mix	PacBioFwdV2-5	VR20F	PacBioRevV2-3
+16	VR20F Mix	PacBioFwdV2-3	VR20F	PacBioRevV2-4
+17	VR20F Mix	PacBioFwdV2-4	VR20F	PacBioRevV2-3
+18	VR20F Mix	PacBioFwdV2-5	VR20F	PacBioRevV2-1
+19	VR20F Mix	PacBioFwdV2-6	VR20F	PacBioRevV2-15-ApalI
+20	VR20F Mix	PacBioFwdV2-7	VR20F	PacBioRevV2-16-ApalI
+21	VR20F Mix	PacBioFwdV2-8	VR20F	PacBioRevV2-17-ApalI
+22	VR20F Mix	PacBioFwdV2-6	VR20F	PacBioRevV2-18-ApalI
+23	VR20F Mix	PacBioFwdV2-7	VR20F	PacBioRevV2-15-ApalI
+24	VR20F Mix	PacBioFwdV2-9	VR20F	PacBioRevV2-16-ApalI
+25	T3TermShort	PacBioFwdV2-0	T3short_termination_series	PacBioRevV2-24-P9
+26	T3TermShort	PacBioFwdV2-3	T3short_termination_series	PacBioRevV2-24-P9
+27	T3TermShort	PacBioFwdV2-5	T3short_termination_series	PacBioRevV2-24-P9
+28	T3TermShort	PacBioFwdV2-6	T3short_termination_series	PacBioRevV2-24-P9
+29	T3TermShort	PacBioFwdV2-0	T3short_termination_series	PacBioRevV2-25-P9
+30	T3TermShort	PacBioFwdV2-4	T3short_termination_series	PacBioRevV2-25-P9
+31	T3TermShort	PacBioFwdV2-6	T3short_termination_series	PacBioRevV2-25-P9
+32	T3TermShort	PacBioFwdV2-7	T3short_termination_series	PacBioRevV2-25-P9
+33	Ecoli VR Mix	PacBioFwdV2-0	TacVRMix	PacBioRevV2-0
+34	Ecoli VR Mix	PacBioFwdV2-1	TacVRMix	PacBioRevV2-0
+35	Ecoli VR Mix	PacBioFwdV2-3	TacVRMix	PacBioRevV2-3
+36	Ecoli VR Mix	PacBioFwdV2-4	TacVRMix	PacBioRevV2-1
+37	Ecoli VR Mix	PacBioFwdV2-6	TacVRMix	PacBioRevV2-0
+38	Ecoli VR Mix	PacBioFwdV2-9	TacVRMix	PacBioRevV2-3
