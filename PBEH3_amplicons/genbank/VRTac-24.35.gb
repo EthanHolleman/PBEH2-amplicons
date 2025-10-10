@@ -1,7 +1,7 @@
 LOCUS       2558bp_PCR_prod         2558 bp    DNA              UNK 01-JAN-1980
 DEFINITION  VRTac-24.35.
-ACCESSION   2558bp_9LgeuIakLF0YrWPZQIRC-TV3TZI
-VERSION     2558bp_9LgeuIakLF0YrWPZQIRC-TV3TZI
+ACCESSION   2558bp_x0AW433NxNRyI97mG-30HmxSg1g
+VERSION     2558bp_x0AW433NxNRyI97mG-30HmxSg1g
 KEYWORDS    .
 SOURCE      .
   ORGANISM  .
@@ -39,11 +39,11 @@ ORIGIN
      1201 ccgcagccga acgaccgagc gcagcgagtc agtgagcgag gaagcggaag agcgcccaat
      1261 acgcaaaccg cctctccccg cgcgttggcc gattcattaa tgcaggcatg ctctagattg
      1321 acaattaatc atcggctcgt ataatgttgt tatccgctca caattgttat ccgctcacaa
-     1381 agatctggat ccggtaccca aacactccct cggcaatctt ggggaaccag ggcgggccta
-     1441 ggggcctctg gggatccagg ggcggggggg gtacacgggg actggggggg gaactcgggg
-     1501 taaaaggggg gggtcagggg caatggggaa taaggggggg gccggggcag ggaaaacatg
-     1561 aattcgtcgc agtgaccgag gcgaggaggc tatggcagtg gaccaggggg atgagtcggt
-     1621 gtgacagtgg tgggggttgt gttggtggtc gcggcgcggg gagagtccgt aggaagtggc
+     1381 agatctggat ccggtaccca aacactccct cggcactggg aacagggaac agggacacgg
+     1441 gaattgggta cagggcaacg ggacacgggt caagggaaat gggtcccggg atatgggcaa
+     1501 tgggccaagg gtacagggca tcgggatccg ggtaacggga caagggccct gggatcaggg
+     1561 attagggcaa tgggtaacgg gtaaagggat tagggtacag ggacccggga caagaattcg
+     1621 tcgcagtgac cgaggcgagg aggggtggtc gcggcgcggg gagagtccgt aggaagtggc
      1681 tgggaggtag ggggaaggcg gcgacagtgg gtattggcgg cggtgggcat tggcagcggg
      1741 taggcatggc ggtggtggac tttggcggcg gtaggcatgg cggcggtggg catggcatgg
      1801 aggcggtggg catggcggcc gcggggcctg tcgctgtccg gagtgactaa gggacgctga
