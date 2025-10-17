@@ -31,8 +31,8 @@ Sample_ID	Template	Fwd_primer	Plasmid Loc	Rev_primer
 30	T3TermShort	PacBioFwdV2-4	T3short_termination_series	PacBioRevV2-25-P9
 31	T3TermShort	PacBioFwdV2-6	T3short_termination_series	PacBioRevV2-25-P9
 32	T3TermShort	PacBioFwdV2-7	T3short_termination_series	PacBioRevV2-25-P9
-33	Ecoli VR Mix	PacBioFwdV2-0	TacVRMix	PacBioRevV2-0
-34	Ecoli VR Mix	PacBioFwdV2-1	TacVRMix	PacBioRevV2-0
+33	Ecoli VR Mix	PacBioFwdV2-7	TacVRMix	PacBioRevV2-0
+34	Ecoli VR Mix	PacBioFwdV2-8	TacVRMix	PacBioRevV2-0
 35	Ecoli VR Mix	PacBioFwdV2-3	TacVRMix	PacBioRevV2-3
 36	Ecoli VR Mix	PacBioFwdV2-4	TacVRMix	PacBioRevV2-1
 37	Ecoli VR Mix	PacBioFwdV2-6	TacVRMix	PacBioRevV2-0
