@@ -17,3 +17,10 @@ These files are located in the amplicons directory.
 
 `generateAmplicons.py` should be run from the repos root directory to avoid 
 filepath issues.
+
+## Example command 
+
+```
+python generateAmplicons.py PBEH3_samples.tsv primers.tsv plasmids PBEH3
+_amplicons
+```
