@@ -1,7 +1,7 @@
 LOCUS       2558bp_PCR_prod         2558 bp    DNA              UNK 01-JAN-1980
 DEFINITION  VRTac-23.33.
-ACCESSION   2558bp_a9QD7SqHwHBSA6o_zwAMziogTuc
-VERSION     2558bp_a9QD7SqHwHBSA6o_zwAMziogTuc
+ACCESSION   2558bp_fvOBLCyzFwynqa0uivUSrn5L3M4
+VERSION     2558bp_fvOBLCyzFwynqa0uivUSrn5L3M4
 KEYWORDS    .
 SOURCE      .
   ORGANISM  .
@@ -11,7 +11,7 @@ FEATURES             Location/Qualifiers
                      /label="name"
                      /ApEinfo_fwdcolor="#baffa3"
                      /ApEinfo_revcolor="#ffbaba"
-     primer_bind     complement(2508..2531)
+     primer_bind     complement(2508..2532)
                      /label="name"
                      /ApEinfo_fwdcolor="#baffa3"
                      /ApEinfo_revcolor="#ffbaba"
@@ -58,5 +58,5 @@ ORIGIN
      2341 atgggacgcg ccctgtagcg gcgcattaag cgcggcgggt gtggtggtta cgcgcagcgt
      2401 gaccgctaca cttgccagcg ccctagcgcc cgctcctttc gctttcttcc cttcctttct
      2461 cgccacgttc gccggctttc cccgtcaagc tctaaatcgg gggctccctt tagggttccg
-     2521 atttagtgct tctaaccgac acgaatggcg cgtttgcc
+     2521 atttagtgct ttcgccaaac acgaatggcg cgtttgcc
 //
